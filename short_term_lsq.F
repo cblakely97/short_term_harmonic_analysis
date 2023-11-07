@@ -55,8 +55,8 @@
       ! output estimate
       REAL(8),ALLOCATABLE :: UBar(:), VBar(:), UTide(:), VTide(:)
       ! filename
-      CHARACTER(LEN=16) :: f62="Baroclinic.62.nc"
-      CHARACTER(LEN=11) :: fn_out="file_out.nc"
+      CHARACTER(LEN=16) :: f62="fort.62.nc"
+      CHARACTER(LEN=11) :: fn_out="tidal_velocity.nc"
       CHARACTER(LEN=40) ::screenmessage
       REAL(8) :: tmp
       !
